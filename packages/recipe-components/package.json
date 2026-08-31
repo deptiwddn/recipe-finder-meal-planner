@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/recipe-planner/recipe-finder-meal-planner.git",
+    "url": "https://github.com/deptiwddn/recipe-finder-meal-planner.git",
     "directory": "packages/recipe-components"
   },
   "publishConfig": {
