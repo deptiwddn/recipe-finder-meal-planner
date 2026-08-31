@@ -4,6 +4,8 @@
 
 The reusable StencilJS library is prepared for publication as **[@recipe-planner/components](https://www.npmjs.com/package/@recipe-planner/components)**. Run the publishing commands below from an npm-authenticated account.
 
+Source repository: [https://github.com/deptiwddn/recipe-finder-meal-planner.git](https://github.com/deptiwddn/recipe-finder-meal-planner.git)
+
 The library source and package configuration live in [packages/recipe-components](packages/recipe-components). The SvelteKit app consumes the npm package through its loader; it does not import library source files.
 
 ## Step 1: Package configuration
