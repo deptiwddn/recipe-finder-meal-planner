@@ -1,0 +1,11 @@
+:root {
+  --recipe-color-primary: #2563eb;
+  --recipe-color-danger: #dc2626;
+  --recipe-color-text: #1f2937;
+  --recipe-color-muted: #6b7280;
+  --recipe-color-border: #d1d5db;
+  --recipe-radius: 0.5rem;
+  --recipe-focus: 0 0 0 3px rgb(37 99 235 / 30%);
+}
+
+* { box-sizing: border-box; }

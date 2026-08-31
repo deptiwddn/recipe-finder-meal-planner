@@ -1,0 +1,1 @@
+<script lang="ts">let { message = 'No recipes found. Try another search.' }: { message?: string } = $props();</script><div class="empty"><span aria-hidden="true">🍽️</span><p>{message}</p></div><style>.empty { padding: 3rem; text-align: center; color: #6b7280; } span { font-size: 3rem; }</style>

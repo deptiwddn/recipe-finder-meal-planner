@@ -1,0 +1,2 @@
+<script lang="ts">import type { MealArea } from '$lib/models/area'; let { areas, value, onChange }: { areas: MealArea[]; value: string; onChange: (value: string) => void } = $props();</script>
+<label for="area">Cuisine</label><select id="area" value={value} onchange={(event) => onChange(event.currentTarget.value)}><option value="">All cuisines</option>{#each areas as area}<option value={area.name}>{area.name}</option>{/each}</select>

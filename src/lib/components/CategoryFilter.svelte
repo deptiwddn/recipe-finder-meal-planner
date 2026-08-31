@@ -1,0 +1,2 @@
+<script lang="ts">import type { Category } from '$lib/models/category'; let { categories, value, onChange }: { categories: Category[]; value: string; onChange: (value: string) => void } = $props();</script>
+<label for="category">Category</label><select id="category" value={value} onchange={(event) => onChange(event.currentTarget.value)}><option value="">All categories</option>{#each categories as category}<option value={category.name}>{category.name}</option>{/each}</select>
